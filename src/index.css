@@ -3,11 +3,153 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* buttons */
+.header-btn{
+  margin: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px ;
+  background: rgb(247, 163, 61); 
+  text-align: center;
+  line-height: 80px;
+  display: inline-block;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+}
+.logout-btn{
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 80px ;
+  background: rgb(248, 81, 136); 
+  text-align: center;
+  line-height: 100px;
+  display: inline-block;
+}
+
+.logout-btn:hover,
+.logout-btn:focus {
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+}
+
+.back-btn{
+  width: 200px;
+  height: 30px;
+}
+
+/* registration/login form */
+.reg-log-div{
+  border: 1px solid rgb(247, 163, 61);
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+ /* new message/new topic input */
+.new-input{
+  text-align: 'center';
+  border: 1px solid rgb(255, 140, 3);
+  height: 120px;
+  padding: 30px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 3px 3px 3px grey;
+}
+
+/* topics */
+.topics-container{
+  overflow: auto;
+  margin: 30px;
+  width: 800px;
+  height: 500px;
+  border: 1px solid rgb(255, 140, 3);
+  margin: 0 auto;
+}
+
+.topics-divs{
+  margin: 0 auto;
+  width: 400px;
+}
+
+.topics{
+  border: 1px solid rgb(247, 163, 61);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+/* messages */
+.msg-container{
+  overflow: auto;
+  margin: 30px;
+  width: 800px;
+  height: 500px;
+  border: 1px solid rgb(109, 170, 250);
+  margin: 0 auto;
+}
+
+
+.one-msg-container{
+  margin: 0 auto;
+  width: 250px;
+}
+
+.one-msg{
+  border-bottom: 1px solid rgb(109, 170, 250);
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+/* profile data */
+.profile{
+  border: 1px solid rgb(109, 170, 250);
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+/* scroll button */
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
